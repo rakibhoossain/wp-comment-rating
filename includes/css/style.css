@@ -1,0 +1,63 @@
+.comment-form-rating {
+	margin: 9px 0 0 0;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+	text-align: left;
+	font-size: 13px;
+	color: #3a89cf;
+	white-space: nowrap;
+	display: inline-block;
+	cursor: pointer;
+}
+.reviews-i-rating{
+	color: #3a89cf;
+}
+.comment-form-rating .fa {
+	font-size: 13px;
+	padding: 0 2px;
+}
+#rating_zero {
+	margin-left: 15px;
+    cursor: pointer;
+    color: #3a89cf;
+}
+#rating_zero:hover{
+	color: #27292b;
+}
+.comment-form-rating.admin-rating .fa,
+#rating_zero .fa {
+	font-size: 16px;
+    padding: 5px 3px;
+}
+.comment-form-rating .fa:hover:before {
+	content: "\f005";
+}
+.comment-form-rating .fa:hover:before,
+.comment-form-rating .fa:hover ~ .fa:before {
+	content: "\f005";
+}
+.comment-form-rating[data-rating="1"] .fa:nth-child(5):before {
+	content: "\f005";
+}
+.comment-form-rating[data-rating="2"] .fa:nth-child(5):before,
+.comment-form-rating[data-rating="2"] .fa:nth-child(4):before {
+	content: "\f005";
+}
+.comment-form-rating[data-rating="3"] .fa:nth-child(5):before,
+.comment-form-rating[data-rating="3"] .fa:nth-child(4):before,
+.comment-form-rating[data-rating="3"] .fa:nth-child(3):before {
+	content: "\f005";
+}
+.comment-form-rating[data-rating="4"] .fa:nth-child(5):before,
+.comment-form-rating[data-rating="4"] .fa:nth-child(4):before,
+.comment-form-rating[data-rating="4"] .fa:nth-child(3):before,
+.comment-form-rating[data-rating="4"] .fa:nth-child(2):before {
+	content: "\f005";
+}
+.comment-form-rating[data-rating="5"] .fa:nth-child(5):before,
+.comment-form-rating[data-rating="5"] .fa:nth-child(4):before,
+.comment-form-rating[data-rating="5"] .fa:nth-child(3):before,
+.comment-form-rating[data-rating="5"] .fa:nth-child(2):before,
+.comment-form-rating[data-rating="5"] .fa:nth-child(1):before {
+	content: "\f005";
+}

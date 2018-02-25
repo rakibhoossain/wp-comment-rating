@@ -1,0 +1,44 @@
+# <!=Copyright (C) 2018 Automattic
+# This file is distributed under the GNU General Public License v2 or later.=!>
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Comment Rating\n"
+"POT-Creation-Date: 2018-02-24 12:48+0600\n"
+"PO-Revision-Date: 2018-02-24 12:47+0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+
+#: includes/class-wpcr-rating.php:48
+msgid ""
+"Error: You did not add your rating. Hit the BACK button of your Web browser "
+"and resubmit your comment with rating."
+msgstr ""
+
+#: includes/class-wpcr-rating.php:57
+msgid "Rating"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Comment Rating"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "www.rakibhossain.cf/comment-rating"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Adds an awesome rating field in comment form"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Rakib Hossain"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "www.rakibhossain.cf"
+msgstr ""
