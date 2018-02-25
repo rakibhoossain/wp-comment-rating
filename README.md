@@ -1,4 +1,4 @@
-#wp-comment-rating
+# wp-comment-rating
 ![Logo](assets/screenshot-1.jpg)
 The easiest to use rating option in comment! [Comment Rating](http://www.rakibhossain.cf/comment-rating) plugin allows you to add a rating field in your comment from. Rating would be visible after comment content.
 
