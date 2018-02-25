@@ -6,7 +6,7 @@ The easiest to use rating option in comment! [Comment Rating](http://www.rakibho
 
 ## Installation
 
-Thank you for choosing Comment Rating! In order to use rating in comment from, simply activate the plugin.
+Thank you for choosing Comment Rating! In order to use rating in comment from, simply activate the plugin. You may delete 'assets' folder :)
 
 The field name, Comment Rating creates is 'field'.
 
