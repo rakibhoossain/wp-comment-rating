@@ -1,9 +1,8 @@
-=== Comment Rating ===
-Contributors: serakib
-Donate link: http://www.rakibhossain.cf
+=== Fa Comment Rating ===
+
 Tags: comments, rating
-Requires at least: 4.0
-Tested up to: 4.9.3
+Requires at least: 3.5
+Tested up to: 4.9.4
 Stable tag: 4.5
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html

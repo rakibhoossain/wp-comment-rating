@@ -10,7 +10,7 @@
  * @author     Rakib Hossain <serakib@gmail.com>
  */
 
-class Comment_Rating {
+class FACR {
 
 	/**
 	 * The loader that's responsible for maintaining and registering all hooks that power
@@ -47,7 +47,7 @@ class Comment_Rating {
 	 */
 	public function __construct() {
 
-		$this->plugin_name = 'comment-rating';
+		$this->plugin_name = 'fa-comment-rating';
 		$this->version = '1.0.0';
 
 		$this->load_dependencies();
@@ -69,31 +69,31 @@ class Comment_Rating {
 		 * The class responsible for orchestrating the actions and filters of the
 		 * core plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wpcr-loader.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-facr-loader.php';
 
 		/**
 		 * The class responsible for defining internationalization functionality
 		 * of the plugin.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wpcr-i18n.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-facr-i18n.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the admin area.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wpcr-admin.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-facr-admin.php';
 
 		/**
 		 * The class responsible for defining all actions that occur in the public-facing
 		 * side of the site.
 		 */
-		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wpcr-public.php';
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-facr-public.php';
 
         /**
          * Comment rating
          */
-        require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-wpcr-rating.php';
+        require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/class-facr-rating.php';
 
-		$this->loader = new WPCR_Loader();
+		$this->loader = new FACR_Loader();
 
 	}
 
@@ -108,7 +108,7 @@ class Comment_Rating {
 	 */
 	private function set_locale() {
 
-		$plugin_i18n = new WPCR_i18n();
+		$plugin_i18n = new FACR_i18n();
 
 		$this->loader->add_action( 'plugins_loaded', $plugin_i18n, 'load_plugin_textdomain' );
 
@@ -123,8 +123,8 @@ class Comment_Rating {
 	 */
 	private function define_admin_hooks() {
 
-		$plugin_admin = new WPCR_Admin( $this->get_plugin_name(), $this->get_version() );
-        $plugin_rating = new WPCR_Rating();
+		$plugin_admin = new FACR_Admin( $this->get_plugin_name(), $this->get_version() );
+        $plugin_rating = new FACR_Rating();
 
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );        
@@ -146,7 +146,7 @@ class Comment_Rating {
 	 */
 	private function define_public_hooks() {
 
-		$plugin_public = new WPCR_Public( $this->get_plugin_name(), $this->get_version() );
+		$plugin_public = new FACR_Public( $this->get_plugin_name(), $this->get_version() );
 
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_styles' );
 		$this->loader->add_action( 'wp_enqueue_scripts', $plugin_public, 'enqueue_scripts' );

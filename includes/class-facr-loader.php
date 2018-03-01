@@ -9,7 +9,7 @@
  * @subpackage wpcr/includes
  * @author     Rakib Hossain <serakib@gmail.com>
  */
-class WPCR_Loader {
+class FACR_Loader {
 
 	/**
 	 * The array of actions registered with WordPress.

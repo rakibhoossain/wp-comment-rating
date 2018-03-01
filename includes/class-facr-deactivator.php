@@ -9,7 +9,7 @@
  * @subpackage wpcr/includes
  * @author     Rakib Hossain <serakib@gmail.com>
  */
-class WPCR_Deactivator {
+class FACR_Deactivator {
 
 	public static function deactivate() {
 

@@ -9,7 +9,7 @@
  * @subpackage wpcr/includes
  * @author     Rakib Hossain <serakib@gmail.com>
  */
-class WPCR_Activator {
+class FACR_Activator {
 
 	public static function activate() {
 

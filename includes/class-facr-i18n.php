@@ -10,7 +10,7 @@
  * @author     Rakib Hossain <serakib@gmail.com>
  */
 
-class WPCR_i18n {
+class FACR_i18n {
 
 
 	/**

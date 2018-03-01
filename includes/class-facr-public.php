@@ -9,7 +9,7 @@
  * @subpackage wpcr/public
  * @author     Rakib Hossain <serakib@gmail.com>
  */
-class WPCR_Public {
+class FACR_Public {
 
 	/**
 	 * The ID of this plugin.

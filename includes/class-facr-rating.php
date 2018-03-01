@@ -10,7 +10,7 @@
  * @author     Rakib Hossain <serakib@gmail.com>
  */
 
-class WPCR_Rating {
+class FACR_Rating {
 
     /**
      * Add custom meta (ratings) fields to the default comment form.

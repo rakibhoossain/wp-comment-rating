@@ -9,7 +9,7 @@
  * @subpackage wpcr/admin
  * @author     Rakib Hossain <serakib@gmail.com>
  */
-class WPCR_Admin {
+class FACR_Admin {
 
 	/**
 	 * The ID of this plugin.
@@ -66,10 +66,5 @@ class WPCR_Admin {
 		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/script.js', array( 'jquery' ), $this->version, false );
 
 	}
-
-
-    public function create_menu() {
-
-    }
 
 }
